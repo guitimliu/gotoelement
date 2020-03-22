@@ -3,6 +3,8 @@
 
 # 範例
 
+https://guitimliu.github.io/gotoelement/index.html
+
 # CDN
 
 jQuery CDN
@@ -10,6 +12,8 @@ jQuery CDN
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
 go to element CDN
+
+    https://guitimliu.github.io/gotoelement/goToElement.js
 
 
 # 屬性
