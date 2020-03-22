@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>移到指定元素</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body id=top>
+    <nav>
+        <ul>
+            <li data-goto-target="#box1" data-goto-duration="1000">鏈結1</li>
+            <li data-goto-target="#box2" data-goto-duration="1000">鏈結2</li>
+            <li data-goto-target="#box3" data-goto-duration="1000">鏈結3</li>
+            <li data-goto-target="#box4" data-goto-duration="1000">鏈結4</li>
+            <li data-goto-target="#box5" data-goto-duration="1000">鏈結5</li>
+        </ul>
+    </nav>
+    <div id="box1">區域 1</div>
+    <div id="box2">區域 2</div>
+    <div id="box3">區域 3</div>
+    <div id="box4">區域 4</div>
+    <div id="box5">區域 5</div>
+
+    <div id="back-to-top" data-goto-target="#top" data-goto-duration="1500">^</div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="./goToElement.js"></script>
+</body>
+</html>
